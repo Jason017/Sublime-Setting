@@ -1,6 +1,15 @@
+// Create a new Sublime Build called JavaRun
 {
 "cmd": ["javac \"$file_name\" && java \"$file_base_name\""],
 "shell": true,
 "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
 "selector": "source.java"
+}
+
+// Directly edit in JavaC File
+{
+"cmd": ["javac", "$file_name","&&","java", "$file_base_name"],
+"file_regex": "^(...?):([0-9]):?([0-9]*)",
+"selector": "source.java",
+"shell": true
 }
