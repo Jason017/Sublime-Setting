@@ -1,3 +1,5 @@
+// Only works on Windows 10.
+// Input the path for jdk bin in corresponding system.
 {
     "cmd": ["javac", "$file_name", "&&", "java" ,"$file_base_name"],
     "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
