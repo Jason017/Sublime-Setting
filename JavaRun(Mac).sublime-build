@@ -1,4 +1,5 @@
-// Create a new Sublime Build named with JavaRun and only work on Mac System
+// Create a new Sublime Build named with JavaRun
+// Only work on Mac so far.
 {
 "cmd": ["javac \"$file_name\" && java \"$file_base_name\""],
 "shell": true,
