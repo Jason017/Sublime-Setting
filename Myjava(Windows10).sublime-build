@@ -1,5 +1,6 @@
 // Only works on Windows 10.
 // Watch carefully for the path for jdk bin in corresponding system.
+
 // Referring to https://stackoverflow.com/questions/33534753/sublime-cant-find-the-javac-command
 {
     "cmd": ["javac", "$file_name", "&&", "java" ,"$file_base_name"],
@@ -8,3 +9,5 @@
     "selector": "source.java",
     "shell":true
 }
+
+// Try TestModule.java to test if it works.
