@@ -6,3 +6,5 @@
 "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
 "selector": "source.java"
 }
+
+// Try TestModule.java to see if it works.
