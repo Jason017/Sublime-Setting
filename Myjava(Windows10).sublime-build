@@ -1,4 +1,5 @@
-// Only works on Windows 10.
+// Create a new Sublime Build named with Myjava
+// Only work on Windows 10 so far.
 // Watch carefully for the path for jdk bin in corresponding system.
 
 // Referring to https://stackoverflow.com/questions/33534753/sublime-cant-find-the-javac-command
